@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Expert – Delicious Food. Better Moments.</title>
+    <meta name="description" content="Official website of Food Expert restaurant. Savor our signature crispy chicken bucket offers, freshly squeezed juices, loaded snacks, and instant WhatsApp ordering." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:title" content="Food Expert – Delicious Food. Better Moments." />
+    <meta property="og:description" content="Discover crispy chicken buckets, chilled juices, and handcrafted snacks. Order online or via WhatsApp with fast delivery." />
+    <meta property="og:site_name" content="Food Expert" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Food Expert – Delicious Food. Better Moments." />
+    <meta name="twitter:description" content="Discover crispy chicken buckets, chilled juices, and handcrafted snacks. Order online or via WhatsApp with fast delivery." />
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit for modern culinary elegance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Restaurant Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Food Expert",
+      "image": "/images/banners/hero_food_expert_spread.jpg",
+      "description": "Delicious Food. Better Moments. Specialty crispy chicken bucket offers, natural juices, and gourmet snacks.",
+      "servesCuisine": ["Fast Food", "Chicken", "Beverages", "Snacks"],
+      "priceRange": "$$",
+      "paymentAccepted": "Cash, WhatsApp Order, Card",
+      "openingHours": "Mo-Su 10:00-23:00"
+    }
+    </script>
+  </head>
+  <body class="bg-neutral-900 text-neutral-100 antialiased selection:bg-amber-500 selection:text-neutral-950">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

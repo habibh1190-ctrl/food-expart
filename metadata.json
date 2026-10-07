@@ -1,0 +1,6 @@
+{
+  "name": "Food Expert – Restaurant & Online Ordering",
+  "description": "Official website and online ordering platform for Food Expert restaurant. Discover crispy chicken buckets, chilled fresh juices, gourmet snacks, and fast delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
